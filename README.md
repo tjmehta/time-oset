@@ -1,11 +1,11 @@
-# Name
+# time-oset
 
-Description
+Sets in ES6 are sorted by insertion order. TimeOrderedSet is a class that extends Set with Array methods
 
 # Installation
 
 ```sh
-npm i --save node-module-template
+npm i --save time-oset
 ```
 
 # Usage
@@ -14,10 +14,66 @@ npm i --save node-module-template
 
 ```js
 // esm
-import nmt from 'node-module-template`
+import TimeOrderedSet from 'time-oset`
 // commonjs
-const nmt = require('node-module-template')
+const TimeOrderedSet = require('time-oset').default
 ```
+
+#### Array Methods
+
+##### every
+
+##### filter
+
+##### find
+
+##### findIndex
+
+##### forEach
+
+##### indexOf
+
+##### join
+
+##### lastIndexOf
+
+##### map
+
+##### pop
+
+##### push
+
+##### reduce
+
+##### reduceRight
+
+##### shift
+
+##### splice
+
+##### unshift
+
+#### Set Properties
+
+##### size
+
+#### Set Methods
+
+##### clear
+
+##### delete
+
+##### forEach (overriden to callback with values and indexes)
+
+##### has
+
+##### [Symbol.iterator]
+
+##### keys (overriden to yield indexes)
+
+##### values
+
+##### entries (overriden to yield indexes and values)
 
 # License
 
