@@ -21,6 +21,8 @@ const TimeOrderedSet = require('time-oset').default
 
 #### Array Methods
 
+[MDN Set Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+
 ##### every
 
 ##### filter
@@ -53,11 +55,11 @@ const TimeOrderedSet = require('time-oset').default
 
 ##### unshift
 
-#### Set Properties
+#### Set Properties and Methods
+
+[MDN Set Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)
 
 ##### size
-
-#### Set Methods
 
 ##### clear
 
